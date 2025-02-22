@@ -155,7 +155,7 @@ alias ls='lsd'
 alias ip='ip -c'
 
 # Auto-start tmux if not already in a session
-if [[ -z "$TMUX" ]] && [[ "$TERM" != "dumb" ]]; then
-    exec tmux
-fi
+#if [[ -z "$TMUX" ]] && [[ "$TERM" != "dumb" ]]; then
+#    exec tmux
+#fi
 
